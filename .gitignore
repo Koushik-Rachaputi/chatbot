@@ -1,0 +1,34 @@
+# Python environment
+venv/
+.env
+*.env
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database files
+*.db
+*.sqlite3
+
+# Distribution files
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Log files
+*.log
+
+# Miscellaneous files
+*.so
+*.zip
+*.tar.gz
+*.tgz
+*.h5
+*.hdf5
+
+# Ignore embedding files
+data/embeddings/

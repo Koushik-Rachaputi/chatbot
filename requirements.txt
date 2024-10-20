@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+numpy
+torch
+transformers
+python-dotenv
+scikit-learn
