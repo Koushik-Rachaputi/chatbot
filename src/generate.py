@@ -2,7 +2,8 @@ import requests
 import os
 
 def generate_text(prompt):
-    api_key = os.getenv("GEMINI_API_KEY")
+    # Load the API key from the environment variables
+    api_key = os.environ.get("GEMINI_API_KEY")  # Make sure this matches the name you used in Git secrets
     url = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={api_key}'
     headers = {'Content-Type': 'application/json'}
     

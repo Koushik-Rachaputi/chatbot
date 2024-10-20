@@ -32,3 +32,4 @@ build/
 
 # Ignore embedding files
 data/embeddings/
+.vercel
